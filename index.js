@@ -1,4 +1,4 @@
-const productos = ["Aros", "Anillo", "Pulsera", "Collar"];
+const productos = ["Aros", "Anillos", "Pulseras", "Collares"];
 const precios = [2000, 1500, 3000, 5000];
 let total = 0;
 
