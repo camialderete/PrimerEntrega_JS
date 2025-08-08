@@ -2,7 +2,6 @@ const productos = ["Aros", "Anillo", "Pulsera", "Collar"];
 const precios = [2000, 1500, 3000, 5000];
 let total = 0;
 
-
 function mostrarProductos() {
     console.log("Productos disponibles:");
     for (let i = 0; i < productos.length; i++) {
@@ -10,11 +9,9 @@ function mostrarProductos() {
     }
 }
 
-
 function calcularTotal(precio, cantidad) {
     return precio * cantidad;
 }
-
 
 function iniciarSimulador() {
     alert("¡Bienvenido a nuestra tienda de accesorios!");
